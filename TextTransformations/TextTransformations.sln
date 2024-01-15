@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextTransformations", "TextTransformations.csproj", "{7C6D3372-6683-459C-A716-BBFC41419542}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextTransformations.Library", "..\TextTransformations.Library\TextTransformations.Library.csproj", "{057D5B98-9588-4C14-B915-52662F0A3A88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7C6D3372-6683-459C-A716-BBFC41419542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C6D3372-6683-459C-A716-BBFC41419542}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C6D3372-6683-459C-A716-BBFC41419542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{057D5B98-9588-4C14-B915-52662F0A3A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057D5B98-9588-4C14-B915-52662F0A3A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057D5B98-9588-4C14-B915-52662F0A3A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057D5B98-9588-4C14-B915-52662F0A3A88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
