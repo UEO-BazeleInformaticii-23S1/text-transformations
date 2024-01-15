@@ -1,0 +1,9 @@
+﻿Dorim sa proiectam un sistem care pornind de la un continut text (string, fisier) sa permita specificarea unui set de reguli de transformare, care sa conduca in final la obtinerea unui continut procesat / transformat. Procesarea trebuie sa fie suficient de flexibila asa incat utilizatorii sa poata combina la alegere oricare din regulile de transformare suportate.
+Exemple de reguli de transformare:
+- pentru un string dat, sa se inlocuiasca toate aparitiile unui sub-string cu un alt sub-string
+- pentru un string dat, sa se elimine toate aparitiile unui sub-string
+- pentru un string dat, sa se insereze un sub-string la o anumita pozitie
+- pentru un string dat, sa se faca uppercasing la toate literele mici
+- pentru un string dat, sa se faca lowercasing la toate literele mari
+- etc
+Folosind infrastructura creeata, simulati 2 transformari diferite (folosind combinatii diferite de reguli de transformare) aplicate asupra aceluiasi continut si afisati rezultatul.
