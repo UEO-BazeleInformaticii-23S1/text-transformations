@@ -8,7 +8,9 @@ namespace TextTransformations
         {
             string text = "This is the original text";
 
-            string result = TransformationEngine.ApplyAll(text);
+            string result = TransformationEngine.ApplyAll(
+                text,
+                new ReplaceSubStringTransformation("original", "modified"));
 
             Console.WriteLine("Result=" + result);
         }
