@@ -10,6 +10,7 @@ namespace TextTransformations
 
             string result = TransformationEngine.ApplyAll(
                 text,
+                new RemoveSubStringTransformation("This "),
                 new ReplaceSubStringTransformation("original", "modified"));
 
             Console.WriteLine("Result=" + result);
